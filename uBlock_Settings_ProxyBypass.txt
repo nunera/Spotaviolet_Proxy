@@ -1,0 +1,43 @@
+{
+  "timeStamp": 1670965366450,
+  "version": "1.45.2",
+  "userSettings": {
+    "advancedUserEnabled": true,
+    "uiAccentCustom0": "#3584e4",
+    "importedLists": [],
+    "popupPanelSections": 31
+  },
+  "selectedFilterLists": [
+    "user-filters",
+    "assets.json",
+    "public_suffix_list.dat",
+    "ublock-badlists",
+    "ublock-filters",
+    "ublock-badware",
+    "ublock-privacy",
+    "ublock-abuse",
+    "ublock-unbreak",
+    "ublock-quick-fixes",
+    "easylist",
+    "easyprivacy",
+    "urlhaus-1",
+    "plowe-0"
+  ],
+  "hiddenSettings": {
+    "userResourcesLocation": "https://raw.githubusercontent.com/SpotechYT/Spotaviolet_Proxy/main/Spot_Proxy.js"
+  },
+  "whitelist": [
+    "about-scheme",
+    "chrome-extension-scheme",
+    "chrome-scheme",
+    "edge-scheme",
+    "moz-extension-scheme",
+    "opera-scheme",
+    "vivaldi-scheme",
+    "wyciwyg-scheme"
+  ],
+  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
+  "urlFilteringString": "",
+  "hostnameSwitchesString": "no-large-media: behind-the-scene false",
+  "userFilters": "!tries to hide readwrite\n##.gw-toolbar--undocked\n##gw-toolbarear\ndocs.google.com##.gw-toolbar--undocked\n\n!contentYeeter\nckf01.powayusd.com##+js(Confirm.js)\nckf02.powayusd.com##+js(Confirm.js)\nckf03.powayusd.com##+js(Confirm.js)\nckf04.powayusd.com##+js(Confirm.js)\nckr01.powayusd.com##+js(Confirm.js)\nckr02.powayusd.com##+js(Confirm.js)\nckr03.powayusd.com##+js(Confirm.js)\nckr04.powayusd.com##+js(Confirm.js)\nckm01.powayusd.com##+js(Confirm.js)\nckm02.powayusd.com##+js(Confirm.js)\nckm03.powayusd.com##+js(Confirm.js)\nckm04.powayusd.com##+js(Confirm.js)\n"
+}
