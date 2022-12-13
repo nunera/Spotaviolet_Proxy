@@ -1,4 +1,4 @@
-<p align="center"><img src="urltoimage" height="200"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/SpotechYT/Spotaviolet_Proxy/main/Logo.png" height="200"></p>
 
 <h1 align="center">Spotaviolet Proxy</h1>
 
