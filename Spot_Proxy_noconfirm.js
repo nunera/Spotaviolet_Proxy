@@ -8,7 +8,7 @@ url = searchparam.get("RAW");
 if(searchparam.has('RAW')){
   (function(){
     "http" != url.substring(0, 4) && (url = "https://" + url);
-    winloc.href = "https://spotavioletproxy.up.railway.app/uv/service/" + encodeURIComponent(url.toString().split("").map((char, ind) => ind % 2 ? String.fromCharCode(char.charCodeAt() ^ 2) : char).join(""));})();
+    winloc.href = "https://proxy.spotech.dev/uv/service/" + encodeURIComponent(url.toString().split("").map((char, ind) => ind % 2 ? String.fromCharCode(char.charCodeAt() ^ 2) : char).join(""));})();
 }
 
 /// Eurda.js
