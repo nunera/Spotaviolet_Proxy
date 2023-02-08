@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
-    <title>Ultraviolet | Sophisticated Web Proxy</title>
+    <title>Spotaviolet</title>
     <meta
       name="description"
       content="Ultraviolet is a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers. Unblock sites today!"
@@ -21,7 +21,7 @@
       content="#434c5e"
     />
     <meta name="googlebot" content="index, follow, snippet" />
-    <link rel="shortcut icon" content="favicon.ico" />
+    <link rel="shortcut icon" content="uv.png" />
     <link rel="stylesheet" href="index.css" />
     <script src="uv/uv.bundle.js" defer></script>
     <script src="uv/uv.config.js" defer></script>
@@ -68,62 +68,48 @@
       class="flex-center logo-wrapper header-center"
     >
       <img class="logo" src="uv.png" alt="Ultraviolet" />
-      <h1>Ultraviolet | TN</h1>
+      <h1>Spotaviolet | Web Unblocker</h1>
     </div>
     <div class="flex-center desc">
       <p>
-        Ultraviolet is highly sophisticated proxy used for evading internet
-        censorship.
+        Spotaviolet is bassed off of the highly sophisticated proxy used for evading internet
+        censorship called Ultraviolet. You can use it to bypass the scool/work restrictions and have fun ;)
       </p>
     </div>
 
-    <form id="uv-form" class="flex-center">
-      <input
-        id="uv-search-engine"
-        value="https://www.google.com/search?q=%s"
-        type="hidden"
-      />
-      <input id="fake-uv-address" type="text" placeholder="Search the web freely">
-      <input id="uv-address" type="text" placeholder="" style="border-color: #0d0e0e; position: absolute; bottom: 0;">
-      <input id="fake-uv-address"style="width: 50px; margin-left: 10px" type="submit" onclick="submitForm()" value="GO">
-    </form>
+    <div class="flex-center">
+      <input class="fake-uv-address" type="text" placeholder="Search the web freely">
+      <input class="fake-uv-address" style="width: 50px; margin-left: 10px" type="submit" onclick="troll()" value="GO">
+    </div>
+    
     <div class="desc left-margin">
       <p id="uv-error"></p>
       <pre id="uv-error-code"></pre>
     </div>
     <footer>
       <a
-        title="The TitaniumNetwork GitHub organization"
-        href="https://github.com/titaniumnetwork-dev"
-        >TitaniumNetwork</a
-      >
-      <a title="The TitaniumNetwork Discord" href="https://discord.gg/unblock"
-        >Discord</a
+        title="My Webiste"
+        href="https://spotech.dev"
+        >Spotech.dev</a
       >
       <a
-        title="The TompHTTP GitHub organization"
-        href="https://github.com/tomphttp"
-        >TompHTTP</a
-      >
-      <a
-        title="The official deployment repository for Ultraviolet"
-        href="https://github.com/titaniumnetwork-dev/Ultraviolet-App"
+        title="My GitHub"
+        href="https://github.com/SpotechYT"
         >GitHub</a
       >
-      <a
-        title="License information"
-        href="credits.html"
-        style="margin-left: auto"
-        >Credits</a
-      >
-      <span>Ultraviolet &copy; TN 2022</span>
+      <form id="uv-form" class="flex-center">
+        <input
+          id="uv-search-engine"
+          value="https://www.google.com/search?q=%s"
+          type="hidden"
+        />
+        <input id="uv-address" type="text" placeholder="" style="border-color: #0d0e0e; position: absolute; bottom: 0; justify-content: center;">
+      </form>
     </footer>
   </body>
   <script>
     function troll() {
-      while (true){
         window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-      }
     }
-</script>
+  </script>
 </html>
