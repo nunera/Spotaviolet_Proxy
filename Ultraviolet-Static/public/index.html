@@ -78,7 +78,7 @@
     </div>
 
     <div class="flex-center">
-      <input class="fake-uv-address" type="text" placeholder="Search the web freely">
+      <input id="fake-uv-address" type="password" placeholder="What's the Password">
       <input class="fake-uv-address" style="width: 50px; margin-left: 10px" type="submit" onclick="troll()" value="GO">
     </div>
     
@@ -103,13 +103,16 @@
           value="https://www.google.com/search?q=%s"
           type="hidden"
         />
-        <input id="uv-address" type="text" placeholder="" style="border-color: #0d0e0e; position: absolute; bottom: 0; justify-content: center;">
+        <input id="uv-address" type="text" placeholder="Nice, You found the Password!" style="visibility: hidden;">
       </form>
     </footer>
   </body>
   <script>
     function troll() {
-        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+        var Password = document.getElementById("fake-uv-address").value;
+        if(Password == "pink"){
+          document.getElementById('uv-address').elem.style.visibility = show;
+        }
     }
   </script>
 </html>
