@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="ThisIsCrapDontLookAtit.js"></script>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -111,11 +112,11 @@
   </body>
   <script>
     function troll(Password) {
-        if(Password == "DQD7YLgNTHjGwCH82dZ6xJv3"){
+        if(Password == encrypt("DQD7YLgNTHjGwCH82dZ6xJv3")){
           document.getElementById('uv-address').style.visibility = "visible";
         }
         else {
-          window.alert("Ur Bad Kid");
+          window.alert(encrypt(Password));
         }
     }
   </script>
