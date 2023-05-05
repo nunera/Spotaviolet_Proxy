@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="ThisIsCrapDontLookAtit.js"></script>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -111,12 +110,21 @@
     </footer>
   </body>
   <script>
+    const CryptoJS = require('crypto-js');
+    const encrypt = (text) => {
+      return CryptoJS.enc.Base64.stringify(CryptoJS.enc.Utf8.parse(text));
+    };
+    const decrypt = (data) => {
+      return CryptoJS.enc.Base64.parse(data).toString(CryptoJS.enc.Utf8);
+    };
+
     function troll(Password) {
         if(Password == encrypt("DQD7YLgNTHjGwCH82dZ6xJv3")){
           document.getElementById('uv-address').style.visibility = "visible";
         }
         else {
-          window.alert(encrypt(Password));
+          window.alert("Wrong lol");
+          console.log(encrypt(Password));
         }
     }
   </script>
