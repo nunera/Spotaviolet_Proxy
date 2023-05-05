@@ -77,10 +77,10 @@
       </p>
     </div>
 
-    <div class="flex-center">
-      <input id="fake-uv-address" type="password" placeholder="What's the Password">
-      <input class="fake-uv-address" style="width: 50px; margin-left: 10px" type="submit" onclick="troll()" value="GO">
-    </div>
+    <form class="flex-center" onsubmit="return troll(document.getElementById('password-IN').value);">
+      <input id="password-IN" class="fake-uv-address" type="password" placeholder="What's the Password">
+      <input class="fake-uv-address" style="width: 50px; margin-left: 10px" type="submit" value="GO">
+    </form>
     
     <div class="desc left-margin">
       <p id="uv-error"></p>
@@ -108,9 +108,8 @@
     </footer>
   </body>
   <script>
-    function troll() {
-        var Password = document.getElementById("fake-uv-address").value;
-        if(Password == "pink"){
+    function troll(Password) {
+        if(Password == "12345"){
           document.getElementById('uv-address').elem.style.visibility = show;
         }
     }
