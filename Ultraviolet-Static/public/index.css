@@ -31,7 +31,7 @@ body {
 #uv-error {
   color: #ff6666 !important;
   white-space: pre-wrap;
-}
+}npm install
 
 #uv-error-code {
   font-size: 12px;
@@ -106,7 +106,6 @@ footer a:hover {
 
 #uv-address {
   background: none;
-  visibility: hidden;
   font-family: inherit;
   padding: 0px 17px;
   height: 48px;
